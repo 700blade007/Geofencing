@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="formstyle.css">
+</head>
+<body>
+	<div class="container">
+		<form id="contact" action="/Testing/AddUser" method="post">
+			<fieldset>
+				<input name="uname" placeholder="Your name" type="text" tabindex="1" required
+					autofocus>
+			</fieldset>
+			<fieldset>
+				<input name="email" placeholder="Your Email Address" type="email" tabindex="2"
+					required>
+			</fieldset>
+			<fieldset>
+				<input name="pwd" type="password" tabindex="2" placeholder="Password"
+					required>
+			</fieldset>
+			<fieldset>
+				<button name="submit" type="submit" id="contact-submit"
+					data-submit="...Sending">Sign Up</button>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>
